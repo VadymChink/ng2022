@@ -1,0 +1,8 @@
+<div class="wrap">
+<div>
+<app-post *ngFor="let post of posts" [post]="post">{{post}}</app-post>
+</div>
+<hr>
+<router-outlet></router-outlet>
+</div>
+
