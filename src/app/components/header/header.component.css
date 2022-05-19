@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+a{
+  padding: 0 15%;
+  text-decoration: none;
+  color: blue;
+  font-size: 24px;
+}
+.active {
+  color: crimson;
+}
