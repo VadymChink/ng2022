@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+  color: blue;
+  padding: 0 15%;
+  font-size: 24px;
+}
+.active{
+  color: crimson;
+}
