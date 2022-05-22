@@ -19,8 +19,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getDetails(user: IUser): void {
-    this.router.navigate([this.user.id], {relativeTo: this.activatedRoute, state: user})
-      .then()
+  getDetails(): void {
+    this.router.navigate([this.user.id], {relativeTo: this.activatedRoute}).then()
   }
 }
