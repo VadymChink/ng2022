@@ -9,7 +9,8 @@ import {urls} from "../constants";
   providedIn: 'root'
 })
 export class AuthService {
-  private accessTokenKey = 'access'
+
+  private accessTokenKey = 'access';
 
   constructor(private httpClient: HttpClient) {
   }
@@ -24,6 +25,10 @@ export class AuthService {
 
   setToken(token: IToken): void {
     localStorage.setItem(this.accessTokenKey, token.access)
+  }
+
+  getToken(): string {
+    return localStorage.getItem(this.accessTokenKey) as string;
   }
 
   isAuthorization(): boolean {
