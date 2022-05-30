@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cornflowerblue;
+  height: 60px;
+}
+a{
+  text-decoration: none;
+  color: snow;
+  font-size: 24px;
+  padding: 0 80px;
+}
+.active{
+  color: crimson;
+}
